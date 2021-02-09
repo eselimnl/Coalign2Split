@@ -7,7 +7,7 @@ A virus is a living organism only if we consider it associated with its host. Vi
 
 ## **Usage :**
 ```
-python host-separation.py -i yourseq.fasta -id idlist.txt -o output.fasta
+python iFastaFromAccID.py -i yourseq.fasta -id idlist.txt -o output.fasta
 ```
 You need to give two inputs to run host-separation.py. ID list of host (file in .txt format), sequence data (file in .fasta format)
 ## **Caution :**

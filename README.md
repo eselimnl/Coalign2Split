@@ -3,7 +3,7 @@
 Extract interested fasta sequences based on the accession number list.
 
 ## **Background :**
-A virus is a living organism only if we consider it associated with its host. Viruses of the same family can infect a wide range of hosts. Identifying the host organism(s) is therefore essential, because features like virus-cell interactions and post-translational modifications depend mostly on the host. (UniProt)
+A virus is a living organism only if we consider it associated with its host. Viruses of the same family can infect a wide range of hosts. Identifying the host organism(s) is therefore essential, because features like virus-cell interactions and post-translational modifications depend mostly on the host. 
 
 ## **Usage :**
 ```

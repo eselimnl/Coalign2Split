@@ -1,12 +1,12 @@
 # **Coalign2Split**
 
-Extract interested fasta sequences by identifing the host sequences looking to name of the host species in the header or indicating the host accessions in a text list.
+Extract interested fasta sequences by identifying the host sequences looking to name of the host species in the header or indicating the host accessions in a text list.
 
 ## **Background :**
 A virus is a living organism only if we consider it associated with its host. Viruses of the same family can infect a wide range of hosts. Identifying the host organism(s) is therefore essential, because features like virus-cell interactions and post-translational modifications depend mostly on the host. 
 
 ## **Usage :**
-There 2 ways to use the tool:
+There are 2 ways to use the tool:
 
 1- Define the name of host species found in the fasta headers.
 ```

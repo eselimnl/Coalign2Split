@@ -20,7 +20,7 @@ if len(sys.argv) == 8:
         if line[0] == '>': #selects ID line
             _splitline = line.split() 
             accessorIDWithArrow = _splitline[0] #takes accession and removes definition
-            accessorID = accessorIDWithArrow[1:] #removes ">" symbol
+            accessorID = accessorIDWithArrow[1:].split('.')[0] #removes ">" symbol
             if accessorID in lineList: #compares if ID in fasta exists in the given host ID list  
                 f3.write(line) #adds ID to output
                 skip = 0 

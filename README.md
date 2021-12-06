@@ -18,6 +18,6 @@ python Coalign2Split.py -s -i yourseq.fasta -id idlist.txt -o output.fasta
 ```
 You need to give two inputs to run Coalign2Split.py. ID list of host (file in .txt format), sequence data (file in .fasta format)
 ## **Caution :**
-This code was used for ID match and extract for data downloaded from NCBI Taxonomy. Be careful when if you have data from another databases. Because standard ID annotation may differ. For NCBI:
+This code was used to extract data which is downloaded from NCBI Virus. Be careful if you have data from other databases. It is especially because that standard ID annotation may differ. For NCBI:
 
 accessionID.1 | definition

@@ -9,7 +9,7 @@ parser.add_argument('-o', '--output',dest="output", help='Absolute path to the o
 parser.add_argument('-s', '--sepID', dest="sepID", help='Call the function', action='store_true',required=False)        
 args = parser.parse_args()
 
-f1 = open(args.input1,'r') #fasta file that contains multiple-host sequence (input)
+f1 = open(args.input1,'r') #fasta file that contains multiple-host sequence (input) #errors="ignore" to ignore unknown chracters 
 f3 = open(args.output,'a') #host spesific sequence (output)
 
 if len(sys.argv) == 8:
